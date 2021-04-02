@@ -1,0 +1,22 @@
+<div style="margin-top: 5%">
+  <p>Chart 1 </p>
+
+  <%= pie_chart @first_chart %>
+
+</div>
+<div style="margin-top: 5%">
+  <p>chart 2
+    <%= pie_chart @results %>
+
+</div>
+
+<div style="margin-top: 5%">
+  <p>chart 3,
+    <%= column_chart @third_chart %>
+  </p>
+</div>
+<div style="margin-top: 5%">
+  <p>chart 4 Stacked bar chart,
+    <%= column_chart @fourth_chart, stacked: true %>
+  </p>
+</div>
